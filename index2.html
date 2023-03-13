@@ -1,0 +1,24 @@
+anvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgrey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    pincel.fillStyle = 'green';
+    pincel.fillRect(0, 0, 200, 400)
+
+    pincel.fillStyle = 'red';
+    pincel.fillRect( 400, 0, 200, 400)
+
+    pincel.fillStyle = 'yellow';
+    pincel.beginPath();
+    pincel.moveTo(300, 200);
+    pincel.lineTo(200, 400);
+    pincel.lineTo(400, 400)
+    pincel.fill();
+</script>
+<p>Salvaremos e recarregaremos a página. Temos nossa imagem, assim como antes, só que agora há um triângulo de cor cinza (apenas para ilustrar), com sua base no final do <canvas> e pico centralizado em relação a forma como um todo:</p>
