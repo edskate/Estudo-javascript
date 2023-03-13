@@ -1,0 +1,50 @@
+
+
+
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgrey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    pincel.fillStyle = 'green';
+    pincel.fillRect(0, 0, 200, 400)
+
+    pincel.fillStyle = 'red';
+    pincel.fillRect( 400, 0, 200, 400)
+
+    pincel.fillStyle = 'yellow';
+    pincel.beginPath();
+    pincel.moveTo(300, 200);
+    pincel.lineTo(200, 400);
+    pincel.lineTo(400, 400)
+    pincel.fill();
+
+    pincel.fillStyle = 'blue';
+    pinceel.beginPath();
+    pincel.arc(300, 200, 50, 0, 2 * 3.14);
+    pincel.fill();
+</script>
+
+
+
+
+<br>
+<p>Esse exercício tem duas partes: a primeira parte é uma atividade mão na massa. Depois de realizar essa primeira etapa, você deve responder ao exercício de única escolha. Vamos lá? O Johann é um menino de 11 anos e adora jogar Minecraft. Minecraft é aquele jogo onde você constrói um mundo com blocos, como se fosse um Lego virtual. Ele gosta tanto que pediu um pôster de uma das personagens principais do jogo: o Creeper. O Creeper na verdade é um monstro (que explode ao se aproximar de um jogador) e tem mais ou menos essa cara:</p>
+
+
+<p>Será que você consegue (re)criar essa imagem e desenhar a cabeça do Creeper? Siga os passos a seguir :</p>
+
+<li>Criar um novo arquivo, por exemplo creeper.html.
+<li>Definir a tag canvas.
+<li>Criar um script com tela e pincel.
+<li></li>Desenhar os retângulos através da função fillRect do pincel.
+<li></li>Não esquecer de pintar os retângulos, aqui usamos as cores darkgreen e black.
+
+
+A cara do Creeper.
