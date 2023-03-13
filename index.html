@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <canvas width="600" height="400"></canvas>
+<canvas width="600" height="400"></canvas>
 
-    <script>
-        var tela = document.querySelector('canvas');
-        var pincel = tela.getContext('2d');
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
 
-pincel.fillRect(0, 0,);
-pincel.fillStyle();
-    </script>
+    pincel.fillStyle = 'lightgrey'
+    pincel.fillRect(0, 0, 600, 400);
+
+
+</script>
+<br>
+<p>Nesta aula, aprenderemos a desenhar utilizando um pincel.</p>
+<p>Nas aulas anteriores, aprendemos que o document possui uma função que nos permite utilizar algo do mundo HTML dentro do mundo JavaScript.</p>
+<p>Para isso, criaremos a variável tela, e pediremos ao document.querySelector() o parâmetro "canvas" - note que está entre aspas:</p>
 </body>
+
 </html>
