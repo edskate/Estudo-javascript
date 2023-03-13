@@ -1,0 +1,21 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    function desenhaQuadradoVerde() {
+
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+
+        pincel.fillStyle = 'green';
+        pincel.fillRect(0, 0, 50, 50);
+        pincel.strokeStyle = 'black';
+        pincel.strokeRect(0, 0, 50, 50);
+
+}
+
+desenhaQuadradoVerde();
+
+</script>
+<p>Salvaremos e recarregaremos o programa. </p>, <p>continuamos vendo apenas um quadrado!</p>
+<h3> Por que isso aconteceu?</h3>
